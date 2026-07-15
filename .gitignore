@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+/dist
+/build
+.eslintcache
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Large media files (to avoid bloating Git repo)
+assets/*.mp3
+assets/*.wav
+docs/*.pdf
+*.mp3
+*.pdf
+
+# 不得公開（此 repo 是公開的，GitHub Pages 免費方案的必要條件）
+# 牧師信息是寫給小組家人／小組長的內部信，不對外。
+docs/牧師信息*.md
+# 他人書籍的翻拍內頁，屬別家出版社版權內容，僅供本機撰稿參考。
+docs/Image*
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# draw.py 生圖暫存（成品已轉為 webp 放進 web/src/assets/）
+generated/
