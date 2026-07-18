@@ -29,6 +29,24 @@ docs/*.pdf
 docs/牧師信息*.md
 # 他人書籍的翻拍內頁，屬別家出版社版權內容，僅供本機撰稿參考。
 docs/Image*
+# OCR 轉出的整本書逐字稿／音檔，屬原作者與出版社版權內容，僅供本機使用，絕不可進公開 repo。
+docs/PDF-markdown/
+docs/PDF調整-markdown/
+# 人工校對後的全書文字，等同全書內容，更不可公開。
+docs/markdown_校對/
+audio/
+
+# 聲音樣本屬個人生物特徵資料，外流即可被任意克隆，一律不進版控。
+*.m4a
+*.wav
+*.aac
+*.flac
+
+# OS / 檔案總管產生的垃圾檔
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
 
 # IDEs
 .vscode/
